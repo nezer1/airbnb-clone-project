@@ -32,7 +32,15 @@ The backend for the Airbnb Clone project is designed to mimic the following core
 
 
 ## **Database Design**
+# **User Entity**
 | Field | Type | Description |
 | :---         |     :---:      |    ---: |
 | id   | integer    | Primary Key   |
 | email     | string       | unique email    |
+| username  | string       | unique username |
+| role      | string       | host , guest or admin|
+| date_joined | DateTime   | account creation date|
+| status  | Boolean  | user account is active |
+| profile_image | URL/ String | profile picture |
+| first_name | string | user's first name |
+| last_name | string | user's second name |
