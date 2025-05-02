@@ -32,7 +32,7 @@ The backend for the Airbnb Clone project is designed to mimic the following core
 
 
 ## **Database Design**
-# **User Entity**
+### **User Entity**
 | Field | Type | Description |
 | :---         |     :---:      |    ---: |
 | id   | integer    | Primary Key   |
