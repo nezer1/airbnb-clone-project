@@ -4,7 +4,7 @@ Building backend services of an Airbnb clone using this [technology stack](#tech
 
 ## :dizzy: **Objective**
 
-The backend for the Airbnb Clone project is designed to mimic the following core features Airbnb:
+The backend for the Airbnb Clone project is designed to mimic the following core features:
  - user interactions [registration, authentication, user profile management]
  - property listings
  - bookings
@@ -28,4 +28,11 @@ The backend for the Airbnb Clone project is designed to mimic the following core
 - Celery: For handling asynchronous tasks such as sending notifications or processing payments.
 - Redis: Used for caching and session management. It will be the celery message broker
 - Docker: Containerization tool for consistent development and deployment environments.
-- CI/CD Pipelines: Automated pipelines for testing and deploying code changes.n 
+- CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+
+## **Database Design**
+| Field | Type | Description |
+| :---         |     :---:      |    ---: |
+| id   | integer    | Primary Key   |
+| email     | string       | unique email    |
