@@ -1,4 +1,0 @@
-# **AirBnB Clone**
-
-
-## :dizzy: **Objective**
